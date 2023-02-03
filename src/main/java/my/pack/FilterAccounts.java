@@ -18,10 +18,12 @@ public class FilterAccounts implements Filter {
             new Accounts("Jimo","Alex","111"),
             new Accounts("Lorms","Mikes","894")));
 
+
+
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException
     {
-
     }
 
 
