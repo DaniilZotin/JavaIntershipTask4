@@ -1,0 +1,37 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+        http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+<display-name>Archetype Created Web Application</display-name>
+
+
+    <servlet>
+        <servlet-name>ServletForMenu</servlet-name>
+        <servlet-class>
+            my.pack.ServletForMenu
+        </servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ServletForMenu</servlet-name>
+        <url-pattern>/servletForMenu</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>FilterAccounts</filter-name>
+        <filter-class>
+            my.pack.FilterAccounts
+        </filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FilterAccounts</filter-name>
+        <url-pattern>/filterAccounts</url-pattern>
+    </filter-mapping>
+
+
+</web-app>

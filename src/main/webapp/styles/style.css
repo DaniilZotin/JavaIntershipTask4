@@ -1,0 +1,74 @@
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+
+}
+
+table, tr {
+    width: 450px;
+    height: 40px;
+}
+
+table, th{
+    background-color: aquamarine;
+    font-size: 16px;
+}
+
+table, td{
+    background-color: white;
+}
+p{
+    font-size: 20px;
+}
+.space{
+    padding-left: 34px;
+}
+label{
+    font-size: 20px;
+}
+.block{
+    height: 200px;
+    width: 350px;
+    background-color: aquamarine;
+    border-collapse: collapse;
+    border: 1px solid;
+    padding-left: 25px;
+}
+.button{
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+}
+.textError{
+    font-size: 15px;
+    color: indianred;
+}
+.spaceTextError{
+    padding-left: 10px;
+}
+
+.headText{
+    font-size: 25px;
+}
+button{
+    font-size: 15px;
+}
+.buttonSpace{
+    padding-left: 90px;
+}
+.buttonLogout{
+    padding-inline: 10px;
+}
+.boxForWelcome{
+    width: 280px;
+    height: 120px;
+    background-color: aquamarine;
+    padding: 10px;
+    padding-left: 40px;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+.inputSubmit{
+    font-size: 15px;
+}
+
